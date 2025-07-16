@@ -1,0 +1,15 @@
+.heart {
+    position: absolute;
+    left: 50%; top: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%); transition: transform 2s;
+    z-index: 1;
+    cursor: pointer;
+}
+.heart > img {
+    width: 50px; height: auto;
+    animation-name: beat;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-play-state: running;
+}
